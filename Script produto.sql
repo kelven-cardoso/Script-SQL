@@ -25,8 +25,8 @@ SELECT PF.CODPROD,
        P.MODULO || ' - ' || P.RUA || ' - ' || TRUNC(P.NUMERO) || ' - ' ||
        P.APTO ENDERECO
   FROM 
-	PCPRECOPROM PF,
-       	PCPRODUT P,
+       PCPRECOPROM PF,
+       PCPRODUT P,
        PCEST E,
        PCFORNEC F,
        PCREGIAO R,
